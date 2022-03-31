@@ -40,9 +40,9 @@ def PlaylistDownload(link):
         print('Erro ao efetuar o download\n', e)
 
 
-print('Digite 1 para baixar um único video')
-print('Digite 2 para baixar uma Lista de Reprodução')
-print('Digite 3 para baixar o canal inteiro')
+print('[1] para baixar um único video')
+print('[2] para baixar uma Lista de Reprodução')
+print('[3] para baixar o canal inteiro')
 print()
 
 op = input("Digite a opção: ")
